@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Fotomodus aktiv</item>
+        <item>Videomodus aktiv</item>
+        <item>Spotfarbe-Video-Modus aktiv</item>
+        <item>Zeitraffer-Modus aktiv</item>
+        <item>Zeitlupe-Modus aktiv</item>
+        <item>Porträtmodus aktiv</item>
+        <item>Spotfarbe-Modus aktiv</item>
+        <item>Nachtsicht-Modus aktiv</item>
+        <item>Gruppen-Selfie-Modus aktiv</item>
+        <item>Live-Filter-Modus aktiv</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Autofokus schließen</item>
+        <item>Weißabgleich schließen</item>
+        <item>Belichtungszeit schließen</item>
+        <item>ISO schließen</item>
+        <item>Belichtungskorrektur schließen</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Auswahl des Autofokus</item>
+        <item>Auswahl des Weißabgleichs</item>
+        <item>Auswahl der Belichtungszeit</item>
+        <item>ISO-Auswahl</item>
+        <item>Auswahl der Belichtungskorrektur</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Kurzanleitung Porträt</item>
+        <item>Kurzanleitung Cinemagramm</item>
+        <item>Kurzanleitung Spotfarbe</item>
+        <item>Kurzanleitung Spotfarbe-Video</item>
+        <item>Kurzanleitung Freistellung</item>
+        <item>Kurzanleitung Ultra-Res</item>
+        <item>Kurzanleitung Makros</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+precision mediump float;
+varying vec4 v_Color;
+varying vec2 v_Position;
+uniform float u_Opacity;
+uniform vec4 u_ExclusionRect;           //x = x1, y = y1, z = x2, w = y2
+void main() {
+
+    if (all(bvec4(lessThan(v_Position, u_ExclusionRect.zy),
+                  greaterThan(v_Position, u_ExclusionRect.xw)))) discard;
+    else gl_FragColor = v_Color * u_Opacity;
+
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Modo Foto activo</item>
+        <item>Modo Vídeo activo</item>
+        <item>Modo Vídeo con color selectivo activo</item>
+        <item>Modo Cámara rápida activo</item>
+        <item>Modo Cámara lenta activo</item>
+        <item>Modo Retrato activo</item>
+        <item>Modo Color selectivo activo</item>
+        <item>Modo Visión nocturna activo</item>
+        <item>Modo Selfie de grupo activo</item>
+        <item>Modo Filtro en directo activo</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Cerrar enfoque automático</item>
+        <item>Cerrar balance de blancos</item>
+        <item>Cerrar velocidad del obturador</item>
+        <item>Cerrar ISO</item>
+        <item>Cerrar compensación de exposición manual</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Selector de enfoque automático</item>
+        <item>Selector de balance de blancos</item>
+        <item>Selector de velocidad del obturador</item>
+        <item>Selector de ISO</item>
+        <item>Selector de compensación de exposición</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Tutorial del retrato</item>
+        <item>Tutorial de cinemagrafía</item>
+        <item>Tutorial de color selectivo</item>
+        <item>Tutorial de vídeo con color selectivo</item>
+        <item>Tutorial de recorte</item>
+        <item>Tutorial de Ultra-Res</item>
+        <item>Tutorial de Macro</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Fotomodus er aktiv</item>
+        <item>Videomodus er aktiv</item>
+        <item>Punktfargevideomodus er aktiv</item>
+        <item>Fortfilmmodus er aktiv</item>
+        <item>Sakte kino-modus er aktiv</item>
+        <item>Portrettmodus er aktiv</item>
+        <item>Punktfargemodus er aktiv</item>
+        <item>Nattsynmodus er aktiv</item>
+        <item>Gruppeselfiemodus er aktiv</item>
+        <item>Direktefiltermodus er aktiv</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Lukk Autofokus</item>
+        <item>Lukk Hvitbalanse</item>
+        <item>Lukk Lukkerhastighet</item>
+        <item>Lukk ISO</item>
+        <item>Lukk Eksponeringskompensasjon</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Autofokusvelger</item>
+        <item>Hvitbalansevelger</item>
+        <item>Lukkerhastighetsvelger</item>
+        <item>ISO-velger</item>
+        <item>Eksponeringskompensasjonsvelger</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portrettveiledning</item>
+        <item>Veiledning for levende bilder</item>
+        <item>Veiledning for punktfarge</item>
+        <item>Veiledning for punktfargevideo</item>
+        <item>Veiledning for utsnitt</item>
+        <item>Veiledning for Ultra-Res</item>
+        <item>Veiledning for makro</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="talkback_video_timer_hour">
+        <item quantity="other">%d hura ita</item>
+        <item quantity="one">%d hura</item>
+    </plurals>
+    <plurals name="talkback_video_timer_minute">
+        <item quantity="other">%d Minutu-ita</item>
+        <item quantity="one">%d minutu</item>
+    </plurals>
+    <plurals name="talkback_video_timer_seconds">
+        <item quantity="other">%d segũdudu-ita</item>
+        <item quantity="one">%d segũdu</item>
+    </plurals>
+</resources>

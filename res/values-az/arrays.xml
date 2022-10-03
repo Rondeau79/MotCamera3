@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Foto rejimi aktivdir</item>
+        <item>Video rejimi aktivdir</item>
+        <item>Spot Color Video rejimi aktivdir</item>
+        <item>Timelapse rejimi aktivdir</item>
+        <item>Yavaş Hərəkət rejimi aktivdir</item>
+        <item>Portret rejimi aktivdir</item>
+        <item>Ləkə rəng rejimi aktivdir</item>
+        <item>Gecə Görmə rejimi aktivdir</item>
+        <item>Qrup Selfie rejimi aktivdir</item>
+        <item>Canlı Filtre rejimi aktivdir</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Avtomatik fokusu bağlayın</item>
+        <item>Ağ balansı bağlayın</item>
+        <item>Deklanşör sürətini bağlayın</item>
+        <item>"ISO'yu bağlayın"</item>
+        <item>Pozlama təzminatını bağlayın</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Avtomatik fokus seçici</item>
+        <item>Ağ balans seçicisi</item>
+        <item>Deklanşör sürəti seçicisi</item>
+        <item>ISO seçicisi</item>
+        <item>Poz kompensasiya seçicisi</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portret təlimatı</item>
+        <item>Cinemagraph təlimatı</item>
+        <item>Ləkə rəngi təlimatı</item>
+        <item>Spot Color Video təlimatı</item>
+        <item>Kəsmə təlimatı</item>
+        <item>Ultra-Res təlimatı</item>
+        <item>Makro təlimatı</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Način za fotografiranje je aktiven</item>
+        <item>Videonačin je aktiven</item>
+        <item>Način videa s posebno barvo je aktiven</item>
+        <item>Način časovnega zamika je aktiven</item>
+        <item>Način upočasnjenega posnetka je aktiven</item>
+        <item>Portretni način je aktiven</item>
+        <item>Način posebne barve je aktiven</item>
+        <item>Način nočnega vida je aktiven</item>
+        <item>Način skupinskega sebka je aktiven</item>
+        <item>Način filtra v živo je aktiven</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Zapri samodejno izostritev</item>
+        <item>Zapri izravnavo beline</item>
+        <item>Zapri hitrost zaklopa</item>
+        <item>Zapri ISO</item>
+        <item>Zapri izravnavo osvetlitve</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Izbirnik samodejne izostritve</item>
+        <item>Izbirnik za izravnavo beline</item>
+        <item>Izbirnik hitrosti zaklopa</item>
+        <item>Izbirnik ISO</item>
+        <item>Izbirnik izravnave osvetlitve</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Vadnica za portrete</item>
+        <item>Vadnica za animirane fotografije</item>
+        <item>Vadnica za posebne barve</item>
+        <item>Vadnica za video s posebno barvo</item>
+        <item>Vadnica za izrez</item>
+        <item>Vadnica za Ultra-Res</item>
+        <item>Vadnica za makro</item>
+    </string-array>
+</resources>

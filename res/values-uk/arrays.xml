@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Режим фото активний</item>
+        <item>Режим відео активний</item>
+        <item>Режим \"Відео з плашковим кольором\" активний</item>
+        <item>Режим \"Прискорена зйомка\" активний</item>
+        <item>Режим \"Уповільнена зйомка\" активний</item>
+        <item>Режим \"Портрет\" активний</item>
+        <item>Режим \"Плашковий колір\" активний</item>
+        <item>Режим \"Нічне фото\" активний</item>
+        <item>Режим \"Групове селфі\" активний</item>
+        <item>Режим \"Фільтри\" активний</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Закрити автофокус</item>
+        <item>Закрити баланс білого</item>
+        <item>Закрити елемент \"Витримка\"</item>
+        <item>Закрити ISO</item>
+        <item>Закрити компенсацію експозиції</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Селектор автофокусу</item>
+        <item>Селектор балансу білого</item>
+        <item>Селектор параметрів витримки</item>
+        <item>Селектор ISO</item>
+        <item>Селектор компенсації експозиції</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Посібник із портретної зйомки</item>
+        <item>Посібник із функції \"Сінемаграф\"</item>
+        <item>Посібник із функції \"Плашковий колір\"</item>
+        <item>Посібник із функції \"Відео з плашковим кольором\"</item>
+        <item>Посібник із функції \"Обтинання\"</item>
+        <item>Посібник із функції Ultra-Res</item>
+        <item>Посібник із функції \"Макро\"</item>
+    </string-array>
+</resources>

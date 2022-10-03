@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Aktivan je režim za fotografije</item>
+        <item>Aktivan je video režim</item>
+        <item>Aktivan je režim za video sa spot bojom</item>
+        <item>Aktivan je režim ubrzanog protoka vremena</item>
+        <item>Aktivan je režim za usporeni snimak</item>
+        <item>Aktivan je režim za portrete</item>
+        <item>Aktivan je režim spot boja</item>
+        <item>Aktivan je režim Noćni vid</item>
+        <item>Aktivan je režim Grupni selfi</item>
+        <item>Aktivan je režim filtera uživo</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Zatvori automatski fokus</item>
+        <item>Zatvori balans bele</item>
+        <item>Brzina zatvarača</item>
+        <item>Zatvori ISO</item>
+        <item>Zatvori kompenzaciju ekspozicije</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Birač automatskog fokusa</item>
+        <item>Birač balansa bele</item>
+        <item>Birač brzine zatvarača</item>
+        <item>ISO birač</item>
+        <item>Birač kompenzacije ekspozicije</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Uputstvo za portret</item>
+        <item>Uputstvo za sinemagraf</item>
+        <item>Uputstvo za spot boju</item>
+        <item>Uputstvo za video sa spot bojom</item>
+        <item>Uputstvo za isečak</item>
+        <item>Ultra-Res uputstvo</item>
+        <item>Uputstvo za makro</item>
+    </string-array>
+</resources>

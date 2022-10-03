@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>โหมดภาพถ่ายใช้งานอยู่</item>
+        <item>โหมดวิดีโอใช้งานอยู่</item>
+        <item>โหมดวิดีโอสีเฉพาะจุดใช้งานอยู่</item>
+        <item>โหมดไทม์แลปส์ใช้งานอยู่</item>
+        <item>โหมดสโลว์โมชั่นใช้งานอยู่</item>
+        <item>โหมดภาพบุคคลใช้งานอยู่</item>
+        <item>โหมดสีเฉพาะจุดใช้งานอยู่</item>
+        <item>โหมดการมองเห็นยามค่ำคืนใช้งานอยู่</item>
+        <item>โหมดเซลฟีกลุ่มใช้งานอยู่</item>
+        <item>โหมดไลฟ์ฟิลเตอร์ใช้งานอยู่</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>ปิดโฟกัสอัตโนมัติ</item>
+        <item>ปิดสมดุลแสงขาว</item>
+        <item>ปิดความเร็วชัตเตอร์</item>
+        <item>ปิด ISO</item>
+        <item>ปิดชดเชยการรับแสง</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>ตัวเลือกโฟกัสอัตโนมัติ</item>
+        <item>ตัวเลือกสมดุลแสดงขาว</item>
+        <item>ตัวเลือกความเร็วชัตเตอร์</item>
+        <item>ตัวเลือก ISO</item>
+        <item>ตัวเลือกชดเชยการรับแสง</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>บทช่วนสอนภาพบุคคล</item>
+        <item>บทช่วยสอนภาพถ่ายเคลื่อนไหว</item>
+        <item>บทช่วยสอนสีเฉพาะจุด</item>
+        <item>บทช่วยสอนวิดีโอสีเฉพาะจุด</item>
+        <item>บทช่วยสอนคัตเอาท์</item>
+        <item>บทช่วยสอน Ultra-Res</item>
+        <item>บทช่วยสอนมาโคร</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Fototilstand aktiv</item>
+        <item>videotilstand aktiv</item>
+        <item>Video med spotfarve-tilstand aktiv</item>
+        <item>Tidsforløbstilstand aktiv</item>
+        <item>Slow motion-tilstand aktiv</item>
+        <item>Portrættilstand aktiv</item>
+        <item>Spotfarve-tilstand aktiv</item>
+        <item>Nattesynstilstand aktiv</item>
+        <item>Gruppeselfietilstand aktiv</item>
+        <item>Live-filter-tilstand aktiv</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Luk autofokus</item>
+        <item>Luk hvidbalance</item>
+        <item>Luk lukkerhastighed</item>
+        <item>Luk ISO</item>
+        <item>Luk eksponeringskompensation</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Autofokus-vælger</item>
+        <item>Hvidbalancevælger</item>
+        <item>Lukkerhastighedsvælger</item>
+        <item>ISO-vælger</item>
+        <item>Eksponeringskompensationsvælger</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portræt-selvstudium</item>
+        <item>Cinemagraph-selvstudium</item>
+        <item>Spotfarve-selvstudium</item>
+        <item>Video med spotfarve-selvstudium</item>
+        <item>Udklip-selvstudium</item>
+        <item>Ultra-Res-selvstudium</item>
+        <item>Makro-selvstudium</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>相片模式使用中</item>
+        <item>影片模式使用中</item>
+        <item>專色影片模式使用中</item>
+        <item>縮時攝影模式使用中</item>
+        <item>慢動作模式使用中</item>
+        <item>人像模式使用中</item>
+        <item>專色模式使用中</item>
+        <item>夜拍功能模式使用中</item>
+        <item>團體自拍模式使用中</item>
+        <item>即時濾鏡模式使用中</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>關閉自動對焦</item>
+        <item>關閉白平衡</item>
+        <item>關閉快門速度</item>
+        <item>關閉 ISO</item>
+        <item>關閉曝光補償</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>自動對焦選擇工具</item>
+        <item>白平衡選擇工具</item>
+        <item>快門速度選擇工具</item>
+        <item>ISO 選擇工具</item>
+        <item>曝光補償選擇工具</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>人像教學</item>
+        <item>動態靜圖教學</item>
+        <item>專色教學</item>
+        <item>專色影片教學</item>
+        <item>去背教學</item>
+        <item>Ultra-Res 教學</item>
+        <item>微距教學</item>
+    </string-array>
+</resources>

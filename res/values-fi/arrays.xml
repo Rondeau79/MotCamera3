@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Valokuvatila aktiivinen</item>
+        <item>Videotila aktiivinen</item>
+        <item>Spottivärivideotila aktiivinen</item>
+        <item>Intervallikuvaustila aktiivinen</item>
+        <item>Hidas liike -tila aktiivinen</item>
+        <item>Muotokuvatila aktiivinen</item>
+        <item>Spottiväritila aktiivinen</item>
+        <item>Night Vision -tila aktiivinen</item>
+        <item>Ryhmäselfietila aktiivinen</item>
+        <item>Live-suodatintila aktiivinen</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Sulje automaattitarkennus</item>
+        <item>Sulje valkotasapaino</item>
+        <item>Sulje suljinaika</item>
+        <item>Sulje ISO</item>
+        <item>Sulje valotuksen korjaus</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Automaattitarkennuksen valinta</item>
+        <item>Valkotasapainon valinta</item>
+        <item>Suljinajan valinta</item>
+        <item>ISO-valinta</item>
+        <item>Valotuksen korjauksen valinta</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Muotokuvaopas</item>
+        <item>Cinemagraph-opas</item>
+        <item>Spottiväriopas</item>
+        <item>Spottivärivideo-opas</item>
+        <item>Leikeopas</item>
+        <item>Ultra-Res-opas</item>
+        <item>Makro-opas</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+precision mediump float;
+
+varying vec2 v_textCoord;
+uniform sampler2D u_Y_texture;
+uniform sampler2D u_UV_texture;
+uniform float u_Opacity;
+
+// 3D lookup table to apply.
+uniform sampler2D u_TextureLookupTable;
+
+// Number of looks side by side in the texture.
+uniform float u_LooksCount;
+
+// Index of look we want to use (for single tile view only).
+uniform float u_LookIndex;
+
+// Whether the look should be treated as grayscale.
+uniform float u_LookIsGrayscale;
+
+// Lookup size in each of the three dimensions.
+const float kLookupSize = 17.0;
+
+vec3 ApplyLookup(vec3 color,
+                 sampler2D lookup_table,
+                 float lut_index,
+                 float is_grayscale,
+                 float luts_count) {
+    vec3 clamped = clamp(color, vec3(0.0), vec3(1.0));
+
+    float blue_coord = (kLookupSize - 1.0) * clamped.b;
+    float blue_coord_low = clamp(floor(blue_coord), 0.0, kLookupSize - 2.0);
+
+    float lower_y =
+        (0.5 + blue_coord_low * kLookupSize + clamped.g * (kLookupSize - 1.0)) /
+        (kLookupSize * kLookupSize);
+    float upper_y = lower_y + 1.0 / kLookupSize;
+
+    float x = 0.5 + kLookupSize * lut_index + clamped.r * (kLookupSize - 1.0);
+    x = (x + kLookupSize * lut_index) / 2.0;
+
+    x /= kLookupSize * luts_count;
+    vec3 lower_rgb = texture2D(lookup_table, vec2(x, lower_y)).rgb;
+    vec3 upper_rgb = texture2D(lookup_table, vec2(x, upper_y)).rgb;
+    float frac_b = blue_coord - blue_coord_low;
+
+    if (is_grayscale > 0.5) {
+        color = vec3(0.3 * color.r + 0.59 * color.g + 0.11 * color.b);
+    }
+    return mix(color, mix(lower_rgb, upper_rgb, frac_b), 1.0);
+}
+
+void main() {
+    float y = texture2D(u_Y_texture, v_textCoord).r;
+    float u = texture2D(u_UV_texture, v_textCoord).a - 0.5;
+    float v = texture2D(u_UV_texture, v_textCoord).r - 0.5;
+    float r = y + (1.370705 * v);
+    float g = y - (0.698001 * v) - (0.337633 * u);
+    float b = y + (1.732446 * u);
+    r = clamp(r, 0.0, 1.0);
+    g = clamp(g, 0.0, 1.0);
+    b = clamp(b, 0.0, 1.0);
+
+    gl_FragColor = vec4(ApplyLookup(vec3(r, g, b), u_TextureLookupTable, u_LookIndex,
+        u_LookIsGrayscale, u_LooksCount), 1.0) * u_Opacity;
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/super_slow_motion_toggle_layout" android:paddingTop="@dimen/container_medium_padding" android:layout_width="fill_parent" android:layout_height="@dimen/toggle_bar_height" android:paddingEnd="@dimen/container_medium_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/toggle_bar_simple_button" android:background="@drawable/circular_button_background" android:visibility="gone" android:layout_width="@dimen/button_size" android:layout_height="@dimen/button_size" android:scaleType="fitCenter" android:tint="@color/super_slow_motion_toggle_color_selector" style="@style/ToggleBarButtonStyle" />
+</FrameLayout>

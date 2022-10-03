@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>وضع الصورة نشط</item>
+        <item>وضع الفيديو نشط</item>
+        <item>وضع الفيديو باللون الموضعي نشط</item>
+        <item>وضع التسريع الزمني نشط</item>
+        <item>وضع الحركة البطيئة نشط</item>
+        <item>وضع الصورة لوجه الشخص نشط</item>
+        <item>وضع اللون الموضعي نشط</item>
+        <item>وضع التصوير الليلي نشط</item>
+        <item>وضع الصورة الذاتية للمجموعة نشط</item>
+        <item>وضع التأثير المباشر نشط</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>إغلاق التركيز التلقائي</item>
+        <item>إغلاق توازن اللون الأبيض</item>
+        <item>إغلاق سرعة الغالق</item>
+        <item>إغلاق ISO</item>
+        <item>إغلاق تعويض التعرض</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>محدد التركيز التلقائي</item>
+        <item>محدد توازن اللون الأبيض</item>
+        <item>محدد سرعة الغالق</item>
+        <item>محدد ISO</item>
+        <item>محدد تعويض التعرض</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>برنامج تعليمي حول الصورة لوجه الشخص</item>
+        <item>برنامج تعليمي حول الصورة بالحركة الخفيفة المتكررة</item>
+        <item>برنامج تعليمي حول اللون الموضعي</item>
+        <item>برنامج تعليمي حول الفيديو بلون موضعي</item>
+        <item>برنامج تعليمي حول الاقتطاع</item>
+        <item>برنامج تعليمي حول Ultra-Res</item>
+        <item>برنامج تعليمي حول ماكرو</item>
+    </string-array>
+</resources>
